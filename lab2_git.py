@@ -59,7 +59,7 @@ Press "E" to exit.
 
 
 def get_factorial(value: int):
-    """Returns the factorial of the input value."""
+    """Returns the factorial of the input value. abc"""
     list_values = np.arange(1, value + 1)
     factorial = list_values.prod()
     return factorial
@@ -70,7 +70,7 @@ def get_rand():
     """TODO: Add your code here
         Hint: Using random.randint() function.
     """
-    my_randint = 0
+    my_randint = random.randint(0, 100)
     return my_randint
 
 

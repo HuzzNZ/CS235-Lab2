@@ -76,10 +76,11 @@ def get_rand():
 
 def toss_coin():
     """Return either Head or Tail"""
-    """TODO: Add your code here
-        Hint: Using random.randint() function.
-    """
-    coin = 'Head'
+    headsOrTails = random.randint(0, 1)
+    if headsOrTails == 0:
+        coin = 'Head'
+    else:
+        coin = 'Tails'
     return coin
 
 
